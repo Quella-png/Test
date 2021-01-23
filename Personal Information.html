@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="Personal Information.css"/>
+    <script type="text/javascript" src="Personal Information.js"></script>
+    <title>账号信息填写</title>
+</head>
+<body>
+    <form>
+        <div class="margin">
+            <h2 class="title">账号信息填写</h2>
+            <br>
+            <hr>
+            <br>
+            <ul class="box">
+                <li class="content">
+                    昵称：<input type="text" class="name"> 
+                </li>
+                
+                <li class="content">
+                    性别： <input type="radio" name="sex" id="sex" class="sex">  <label for="sex">男</label> &nbsp;   
+                            <input type="radio" name="sex" id="sex1" class="sex">   <label for="sex1">女</label> <br>
+                </li>
+
+                <li class="content phonenumber">
+                    手机号码：<input type="tel" class="name" maxlength="11" id="phonenumber"> 
+                </li>
+
+                <li class="content phonenumber">
+                    修改密码：<input type="password" class="name" placeholder="请输入9-15位的密码" id="password"> 
+                </li>
+
+                <li class="content">
+                    <button id="btn" class="storage" onclick="check();">保存</button>
+                </li>
+
+            </ul>
+        </div>
+    </form>
+</body>
+</html>

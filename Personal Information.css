@@ -1,0 +1,63 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    outline: medium;
+}
+body{
+    background-color: rgba(127, 128, 133, 0.651);
+}
+.margin{
+    margin: 0 auto;
+    background-color: azure;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.title{
+    font-size: 30px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 100px;
+    color: #56575a;
+    vertical-align: middle;
+}
+.box{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.content{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.name{
+    border: 1px solid rgba(127, 128, 133, 0.651);
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.phonenumber{
+    margin-left: -40px;
+}
+
+.storage{
+    height: 30px;
+    width: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgba(241, 166, 52, 0.651);
+    border: 1px solid rgba(127, 128, 133, 0.651);
+    margin-left: 220px;
+    margin-bottom: 20px;
+}
+.storage:hover{
+    cursor: pointer;
+}
